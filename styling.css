@@ -1,0 +1,115 @@
+#bar
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    min-width:600px;
+}
+
+body
+{
+    margin:0px;
+    background-color: #FFDED5;
+    color: #314A52;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navigation
+{
+color:white;
+font-family: 'Cairo', sans-serif;
+text-decoration:none;
+background-image:linear-gradient(90deg,#314A52,#52686A);
+width:150px;
+height:60px;
+border:2px solid #FFDED5;
+padding-left:10px;
+padding-top:10px;
+box-sizing:border-box;
+}
+
+.rs
+{
+    color:black;
+    text-decoration:none;
+}
+
+#navbar
+{
+    width:100%;
+    height:100px;
+}
+#container1
+{
+    height:80%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    gap:50px;
+    margin-left:20px;
+}
+
+#hd1
+{
+    font-size:6em;
+    font-family: 'Lato', sans-serif;
+}
+
+#learn
+{
+    cursor:pointer;
+    border-radius:30px;
+    background-image:linear-gradient(90deg,#755bea,#ff72c0);
+    border:0px;
+    font-size:1.3rem;
+    height:8%;
+    min-width:12%;
+    color:black;
+    font-weight:bold;
+}
+
+#container2
+{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:8em;
+    font-weight:bold;
+}
+
+#contactcontainer
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:90%;
+}
+#desc
+{
+  font-size: 2em;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #52686A;
+}
+tr
+{
+    font-size:3em;
+}
+table
+{
+    border-collapse:collapse;
+}
+td,th
+{
+    border:2px solid black;
+    padding-left:20px;
+}
+
+#contactheading
+{
+    margin-left:35%;
+    font-size:3em;
+    font-weight:bold;
